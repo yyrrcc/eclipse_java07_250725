@@ -43,8 +43,8 @@ public class BookMain {
 				break;
 			case 4:
 				System.out.println("프로그램을 종료합니다.");
-//				scanner.close();
-				break;
+				// scanner.close();
+				return;
 			default:
 				System.out.println("다시 입력해주세요.");
 				break;
